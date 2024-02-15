@@ -66,6 +66,6 @@ years = 10
 # Convert APR to a decimal
 apr_decimal = annual_interest_rate / 100
 
-# Calculate future value using compound interest formula.
+# Calculate future value using compound interest formula
 future_value = principal_amount * (1 + apr_decimal) ** years
 print("The future value of the investment after ", years, " is: ", future_value)
